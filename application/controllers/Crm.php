@@ -43,7 +43,11 @@ class Crm extends CI_Controller {
 		$kd_member = $this->input->post('kd_member');
 		$data['grandtotal'] = 0;
 		$data['qty'] = 0;
-		$data['member1'] = $this->crm_model->get($kd_member);
+		$data['faktur'] = 0;
+		$data['hit'] = 0;
+		$data['hitt'] = 0;
+		$data['data'] = $this->crm_model->get($kd_member);
+		$data['count'] = $this->crm_model->countjual($kd_member);
 		$data['list'] = $this->crm_model->get_list($kd_member);
 		$data['member'] = $this->crm_model->detail_member($kd_member);
 		$hasil = $this->load->view('vcrm/member/list_pembelian', $data, true);

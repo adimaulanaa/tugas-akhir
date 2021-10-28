@@ -15,6 +15,7 @@
                             <th>Alamat </th>
                             <th>Telp / Hp</th>
                             <th>Jumlah Point</th>
+                            <th>Jumlah Hutang</th>
                             <th>Keterangan</th>
                             <th>Aksi</th>
                         </tr>
@@ -27,8 +28,9 @@
                                 <td><?php echo $key->almt_member ?></td>
                                 <td><?php echo $key->telp ?></td>
                                 <td><?php echo $key->jum_point ?></td>
+                                <td><?php echo $key->hutang ?></td>
                                 <td><?php echo $key->keterangan ?></td>
-                                <td align="center"><a href="javascript:void(0);" id="tbMember" class="edit_record" data-kd="<?php echo $key->kd_member ?>" data-nama="<?php echo $key->nm_member ?>" data-alamat="<?php echo $key->almt_member ?>" data-telp="<?php echo $key->telp ?>" data-jumlah="<?php echo $key->jum_point ?>" data-keterangan="<?php echo $key->keterangan ?>">Edit</a> |
+                                <td align="center"><a href="javascript:void(0);" id="tbMember" class="edit_record" data-kd="<?php echo $key->kd_member ?>" data-nama="<?php echo $key->nm_member ?>" data-alamat="<?php echo $key->almt_member ?>" data-telp="<?php echo $key->telp ?>" data-jumlah="<?php echo $key->jum_point ?>" data-hutang="<?php echo $key->hutang ?>" data-keterangan="<?php echo $key->keterangan ?>">Edit</a> |
                                     <a href="javascript:void(0);" class="hapus_record" data-kd="<?php echo $key->kd_member ?>">Hapus</a></td>
                             </tr>
                         <?php endforeach ?>

@@ -162,18 +162,7 @@
   }
 </style>
 
-<!-- CONTENT-WRAPPER SECTION END-->
-<!-- <section class="footer-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                   &copy; Copyright <?php echo date('Y') ?>, <a href="https://alele-solutions.com" target="_blank">Alele Solutions</a>
-                </div>
-            </div>
-        </div>
-    </section> -->
-<!-- FOOTER SECTION END-->
-<!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+
 <script src="<?php echo base_url() ?>/assets/js/jquery-1.10.2.js"></script>
 <script src="<?php echo base_url() ?>/assets/js/dataTables/jquery.dataTables.js"></script>
 <script src="<?php echo base_url() ?>/assets/js/bootstrap.js"></script>
