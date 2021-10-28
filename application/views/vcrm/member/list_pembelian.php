@@ -95,7 +95,7 @@
                             <?php if ($member) : ?>
                                 <?php echo $data->jum_point ?>
                             <?php endif ?>
-
+                                    <!-- t -->
 
                         </div>
                     </div>
